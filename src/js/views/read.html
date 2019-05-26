@@ -1,0 +1,24 @@
+<!--
+ Copyright (c) 2014, 2019, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-hybrid-padding">
+    <h1>Read Content Area</h1>
+    
+    <div id="table-container" data-bind="tableModel">
+        <oj-table id='table' aria-label='Departments Table'
+                  data='[[tabledataSource]]'
+                  selection-mode='{"row": "multiple", "column": "multiple"}'
+                  dnd='{"reorder": {"columns": "enabled"}}'
+                  scroll-policy='loadMoreOnScroll'
+                  scroll-policy-options='{"fetchSize": 10}'
+                  columns='[
+                  {"headerText": "Person Id", "field": "PersonId"},
+                  {"headerText": "Person Name", "field": "PersonName"},
+                  {"headerText": "Person Email", "field": "PersonEmail"},
+                  {"headerText": "PersonDesignation", "field": "PersonDesignation"}
+                  ]'
+                  style='width: 100%; height: 200px;'>
+        </oj-table>
+    </div>
+</div>

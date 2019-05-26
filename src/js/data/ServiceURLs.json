@@ -1,0 +1,6 @@
+
+{
+    "getPeople": "http://127.0.0.1:7101/ADF_REST_Service-RESTWebService-context-root/rest/v1/People"
+}
+
+
