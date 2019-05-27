@@ -5,3 +5,59 @@ and open the template in the editor.
 -->
 
 <h1>Create Content Area</h1>
+<div id="addPerson" class="oj-flex-item oj-md-6 oj-sm-12 right">
+    <div id="quickUpdate" class="frame">
+        <div id="newPeoplesForm">
+            <div class="oj-form oj-sm-odd-cols-12 oj-md-odd-cols-6 oj-md-labels-inline">
+                <h3>New Person</h3><hr/>
+
+                <div class="oj-flex">
+                    <div class="oj-flex-item">
+                        <oj-label for="newPersonId">Person Id</oj-label>
+                    </div>
+                    <div class="oj-flex-item">
+                        <oj-input-text id="newPersonId" placeholder="enter unique ID"></oj-input-text>
+                    </div>
+                </div>
+
+                <div class="oj-flex">
+                    <div class="oj-flex-item">
+                        <oj-label for="newPersonName">Person Name</oj-label>
+                    </div>
+                    <div class="oj-flex-item">
+                        <oj-input-text id="newPersonName" maxlength='30' placeholder="enter new name"></oj-input-text>
+                    </div>
+                </div>
+
+                <div class="oj-flex">
+                    <div class="oj-flex-item">
+                        <oj-label for="newPersonEmail">Person Email</oj-label>
+                    </div>
+                    <div class="oj-flex-item">
+                        <oj-input-text id="newPersonEmail" maxlength='100' placeholder="enter user email"></oj-input-text>
+                    </div>
+                </div>
+
+                <div class="oj-flex">
+                    <div class="oj-flex-item">
+                        <oj-label for="newPersonDesignation">Person Designation</oj-label>
+                    </div>
+                    <div class="oj-flex-item">
+                        <oj-input-text id="newPersonDesignation" maxlength='100' placeholder="enter user designation"></oj-input-text>
+                    </div>
+                </div>
+
+                <div class="oj-flex">
+                    <div class="oj-flex-item">
+                        <oj-label for="submitButton">Save New Entry</oj-label>
+                    </div>
+                    <div class="oj-flex-item">
+                        <oj-button id="submitButton" on-oj-action="[[addDPerson]]">Submit</oj-button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

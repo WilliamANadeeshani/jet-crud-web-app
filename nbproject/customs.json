@@ -1,6 +1,11 @@
 {
     "elements": {
-        "oj-picto-chart": {}
+        "oj-label": {},
+        "oj-picto-chart": {},
+        "oj-button": {},
+        "oj-input-number": {},
+        "oj-input-text": {},
+        "oj-table": {}
     },
     "attributes": {}
 }
